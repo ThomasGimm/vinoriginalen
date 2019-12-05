@@ -1,4 +1,131 @@
-
 body {
     background-image: url("../img/marmor_baggrund.png");
+}
+
+/*Burgermenu!*/
+
+.burger {
+    width: 40px;
+    height: 5px;
+    background-color: #90943a;
+    margin: 6px;
+    border-radius: 2px;
+}
+
+#burgerbutton {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+#burgerdropdown {
+    position: fixed;
+    left: 80%;
+}
+
+#burgercontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+
+#burgercontent a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+}
+
+#burgercontent a:hover {
+    background-color: #ddd;
+}
+
+#burgerdropdown:hover #burgercontent {
+    display: block;
+}
+
+ul {
+    display: none;
+}
+
+#flexcontainer1 {
+    position: relative;
+}
+
+a {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    color: #90943a;
+}
+/*Burgermenu slutter*/
+
+h1 {
+    font-family: olicana-fine, sans-serif;
+    font-size: 25px;
+    color: #90943a;
+    margin-left: 35%;
+    display: inline-block;
+}
+
+#streger {
+    width: 100%;
+}
+
+#indkøbskurv {
+    width: 20%;
+}
+
+
+
+/* breakpoint Tablet
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width:700px) {
+
+    #flexcontainer1 {
+        display: none;
+    }
+
+    h1 {
+        font-family: olicana-fine, sans-serif;
+        font-size: 80px;
+        color: #90943a;
+        margin-left: 40%;
+    }
+
+    h2,
+    h3,
+    h4,
+    ul li {
+        font-family: 'Libre Baskerville', serif;
+        text-transform: uppercase;
+        color: #90943a;
+    }
+
+    p {
+        font-family: 'gill-sans-nova', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    ul {
+        list-style-type: none;
+        display: block;
+        margin-left: 20%;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #90943a;
+        display: block;
+        float: left;
+        padding-left: 3%;
+    }
+
+    li {}
+
 }
