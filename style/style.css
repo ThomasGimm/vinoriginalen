@@ -14,13 +14,13 @@ body {
 
 #burgerbutton {
     color: white;
-    padding: 16px;
+    padding: 12px;
     font-size: 16px;
     border: none;
 }
 
 #burgerdropdown {
-    position: fixed;
+    position: relative;
     left: 80%;
 }
 
@@ -29,8 +29,8 @@ body {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    right: 0;
+    box-shadow: 20px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
 #burgercontent a {
@@ -38,7 +38,7 @@ body {
     padding: 20px 20px;
     text-decoration: none;
     display: block;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #burgercontent a:hover {
@@ -66,18 +66,186 @@ a {
 
 h1 {
     font-family: olicana-fine, sans-serif;
-    font-size: 25px;
+    font-size: 2em;
     color: #90943a;
-    margin-left: 35%;
-    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
 }
 
-#streger {
+h2,
+h3,
+h4,
+ul li {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: capitalize;
+    color: #90943a;
+}
+
+p {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 300;
+    margin: 0%;
+    font-style: normal;
+}
+
+#titel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
 }
 
+.streg {
+    width: 26%;
+    height: 3px;
+    background-color: #90943a;
+    margin: 6px;
+    
+}
+
 #indkøbskurv {
-    width: 20%;
+    width: 30px;
+    bottom: 85%;
+    float: right;
+    margin-right: 5%;
+}
+
+#fragt {
+    position: relative;
+    font-size: 7px;
+    bottom: 1px;
+}
+
+
+#vingaarden {
+    width: 100%;
+    margin-top: 3%;
+}
+
+#overgang_grøn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+    
+}
+
+/* Første sektion om vine */
+#treVine {
+    display: flex; flex-wrap: wrap;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #90943a;
+}
+
+h5{
+    color: whitesmoke;
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#footer_foerst{
+    color: whitesmoke;
+    width: 100%;
+    margin-bottom: 5%;
+   
+}
+
+#footer_midt{ 
+    width: 100%;
+    margin-top; 5%;
+    margin-bottom: 5%;
+}
+
+
+#footer_slut{ 
+    width: 100%;
+}
+
+#adresse{
+    display: flex;
+  
+}
+
+#telefon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#punkt_4{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* UNDERSIDE: Book vinsmagning --------------------------------------- */
+
+#vinsmagning_1 {
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+#h2_book { 
+    text-align: center;
+
+}
+
+#h3_book {
+    text-align: center;
+    margin-top: 8%;
+    color: black;
+}
+
+#p_book{ 
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #90943a;
+}
+
+#vinsmagning_2{
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+#vinsmagning_3 { 
+    width: 100%;
+}
+
+#vinsmagning_4{ 
+    width: 100%;
 }
 
 
@@ -127,5 +295,70 @@ h1 {
     }
 
     li {}
+
+
+
+
+
+
+
+
+
+
+
+
+/* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
+
+#vinsmagning_2{
+    width: 33%; 
+
+}
+
+#vinsmagning_3 { 
+    width: 33%;
+}
+
+#vinsmagning_4{ 
+    width: 33%;
+}
+
+#billeder_book{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+}
+
+
+
+/* breakpoint Tablet
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width:1000px){
+
+
+  /* footer 1000px*/
+
+  #footer{
+    background-color: #90943a;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer_foerst{
+    color: whitesmoke;
+    width: 30%;
+}
+
+#footer_midt{ 
+    width: 30%;
+}
+
+#footer_slut{ 
+    width: 30%;
+}
+
+
 
 }
