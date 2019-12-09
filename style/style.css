@@ -428,7 +428,6 @@ h5 {
 
 #vinsmagning_1 {
     width: 100%;
-    margin-top: 3%;
 }
 
 
@@ -541,15 +540,21 @@ h5 {
 
     ul {
         list-style-type: none;
-        display: block; margin-top: 2%;
+        display: block; 
+        margin-top: 5%; 
+        text-align: center;
+        padding: 0%;
     }
+
+    li {display: inline-block; 
+        margin: 0% 2% 0% 2%;}
 
     li a {
         text-decoration: none;
         color: #90943a;
         display: block;
         float: left;
-        padding-left: 5%;
+        font-size: 0.8em;
     }
 
     /* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
@@ -583,11 +588,6 @@ h5 {
         margin-bottom: 5%;
     }
 
-/* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
-
-#book_første_del {
-    padding: 0% 7% 0 7%;
-
 .button {
         padding: 2% 8%;
         font-size: 1em;
@@ -601,10 +601,55 @@ h5 {
 
 /* footer 700px--------------------------------------- */
 
+#footer_foerst {
+    width: 30%;
+    padding-right: 5%;
+    margin-bottom: 0%;
+}
+
+#footer_foerst h5 {
+    margin: 1% 0% 4% 0%;
+}
+
+#footer_midt {
+    width: 30%;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
+
+#footer_slut {
+    width: 20%;
+    padding-left: 3%;
+}
+
+#footer_sociale_medier {
+    padding: 0%;
+}
+
+#footer_sociale_medier img {
+    width: 5%;
+}
+
+#footer_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer_sociale_medier img {
+    width: 3%;
+}
+
 /* breakpoint PC
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) {
 
+   /* GENERELT .....1000px*/
+  
+    li a { font-size: 1.1em; }
+    
+
+ /* UNDERSIDE: FORSIDE.....1000px*/
     #tønder {
         display: block;
         margin: 0%;
@@ -649,42 +694,8 @@ h5 {
         width: 15%;
     }
 
-    #footer_foerst {
-        width: 30%;
-        padding-right: 5%;
-        margin-bottom: 0%;
-    }
-
-    #footer_foerst h5 {
-        margin: 1% 0% 4% 0%;
-    }
-
-    #footer_midt {
-        width: 30%;
-        padding: 0% 5% 0% 5%;
-        margin: 0%;
-    }
-
-    #footer_slut {
-        width: 20%;
-        padding-left: 3%;
-    }
-
-    #footer_sociale_medier {
-        padding: 0%;
-    }
-
-    #footer_sociale_medier img {
-        width: 5%;
-    }
-
-    #footer_wrap {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-
+    /* UNDERSIDE: Book vinsmagning.....1000px*/
+   
     #p_book p {
         font-size: 1.2em;
     }
@@ -695,9 +706,4 @@ h5 {
 
     }
 
-    /* footer 1000px*/
-
-    #footer_sociale_medier img {
-        width: 3%;
-    }
 }
