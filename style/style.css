@@ -343,8 +343,6 @@ p {
 
 
 
-
-
 #footer {
     background-color: #90943a;
     padding: 3%;
@@ -370,10 +368,20 @@ h5 {
     margin-bottom: 5%;
 }
 
+footer p, h5 {color: #e9e2d3;}
+
 
 #footer_slut {
     width: 100%;
 }
+
+#footer_slut section a {
+   color: #e9e2d3; font-size: 1em; text-transform: none; font-family:'gill-sans-nova', sans-serif;
+}
+
+#footer_slut section {
+margin-top: 3%;    
+ }
 
 #adresse {
     display: flex;
@@ -492,6 +500,10 @@ h5 {
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:700px) {
 
+    #menu_del2 p {
+        font-size: 0.77em;
+    } 
+    
     /*Forsiden*/
     #tafuri {
         display: block;
@@ -578,17 +590,17 @@ h5 {
     }
 
     #vinsmagning_2 {
-        width: 33%;
+        width: 33.3%;
         margin-top: 0%;
 
     }
 
     #vinsmagning_3 {
-        width: 33%;
+        width: 33.3%;
     }
 
     #vinsmagning_4 {
-        width: 33%;
+        width: 33.4%;
     }
 
     #billeder_book {
@@ -598,7 +610,7 @@ h5 {
         margin-bottom: 5%;
     }
 
-.button {
+    .button {
         padding: 2% 8%;
         font-size: 1em;
 
@@ -607,7 +619,6 @@ h5 {
     #h3_book {
         margin-top: 4%;
     }
-}
 
 /* footer 700px--------------------------------------- */
 
@@ -650,17 +661,37 @@ h5 {
     width: 3%;
 }
 
+}
+
 /* breakpoint PC
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) {
 
-   /* GENERELT .....1000px*/
+    /* GENERELT .....1000px*/
   
     li a { font-size: 1.1em; }
+
+    #menu_del2 p {
+        font-size: 1em;
+    } 
     
+    #indkøbskurv {
+        max-width: 13%;
+    }
+
+    #titel {
+        width: 30%;
+    }
+
+    #menu_del1 {
+        width: 28%;
+    }
+
+    #menu_del2 {
+        width: 28%;
+    }
 
  /* UNDERSIDE: FORSIDE.....1000px*/
-    /*Forsiden*/
     #tafuri {
         display: block;
         text-align: center;
@@ -721,7 +752,8 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 5%;
-}
+    }
+
     #vinglas {
         width: 25%;
     }
