@@ -301,10 +301,9 @@ p {
 #guieseppes2 {
     width: 100%;
 }
-
-
 /* footer */
-/*underside*/
+
+/* UNDERSIDE VORES VINE--------------------------------------------------------*/
 #druer {
     width: 100%;
 }
@@ -313,12 +312,15 @@ p {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    color: black;
+    color:#90943a;
 }
 
 #vinnavn {
     font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif; 
+    color: #1f1f1f;
+    padding-top: 5%;
+    padding-left: 5%;
 
 }
 
@@ -327,19 +329,28 @@ p {
     flex-wrap: wrap;
 }
 
-#vin {
-    width: 50%;
+#vv_lagra, #vv_tafuri, #vv_belmesseri {
+    width: 40%;
+    padding-top: 10%;
+    margin: 5%;
 }
 
 #beskrivelse {
     font-family: 'gill-sans-nova', sans-serif;
     font-weight: 200;
+    font-size: 15px;
+    
+}
+#beskrivelse, li{ 
+    font-size: 15px;
+    font-family: 'gill-sans-nova', sans-serif;
 }
 
 #passertil {
     font-weight: 900;
     padding-top: 2em;
 }
+/*VORES VINE SLUT-----------------------------------------------------*/
 
 
 
@@ -509,7 +520,6 @@ margin-top: 3%;
         display: block;
         text-align: center;
         width: 50%;
-
     }
 
     #vin_et {
@@ -619,6 +629,16 @@ margin-top: 3%;
     #h3_book {
         margin-top: 4%;
     }
+}
+/* UNDERSIDE VORES VINE*/
+/*#vineflex*/ { 
+    float: left;
+        
+}
+
+
+
+
 
 /* footer 700px--------------------------------------- */
 
@@ -782,5 +802,6 @@ margin-top: 3%;
         font-size: 1em;
 
     }
+   
 
 }
