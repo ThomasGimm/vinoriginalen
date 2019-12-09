@@ -1,7 +1,11 @@
 body {
     background-image: url("../img/marmor_baggrund.png");
 }
+footer, footer h4 {
+    background-color:#90943a; 
+    height: 20%; color: #ddd}
 
+   
 /*Burgermenu!*/
 
 .burger {
@@ -134,6 +138,39 @@ p {
 #treVine {
     display: flex; flex-wrap: wrap;
 }
+
+
+/*----------- UNDERSIDE VORES VINE ------------- */
+
+#druer {
+    width: 100%;   
+}
+#voresvineoverskrift {
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+#vinnavn {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+#vineflex {
+    display: flex; flex-wrap: wrap;
+}
+#vin {
+    width: 50%;
+}
+#beskrivelse {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 200;
+}
+#passertil {
+    font-weight: 900;
+    padding-top: 2em; 
+}
+
+
 
 
 
