@@ -34,7 +34,8 @@
 
         <!--Almindelig menu-->
         <ul>
-           <!-- Forside???--> <li><a href="forside.html">Forside</a></li>
+            <!-- Forside???-->
+            <li><a href="forside.html">Forside</a></li>
             <li><a href="voresvine.html">Vores vine</a></li>
             <li><a href="vingaarden.html">Vingården</a></li>
             <li><a href="book.html">Book vinsmagning</a></li>
@@ -43,13 +44,13 @@
         <!--Almindelig menu slutter-->
 
         <article id="menu">
-            <section id="titel"> 
+            <section id="titel">
 
-                <div class="streg"></div> 
+                <div class="streg"></div>
                 <h1>VinOriginalen</h1>
                 <div class="streg"></div>
             </section>
-            <img id="indkøbskurv" src="img/indkøbskurv.png" alt="Indkøbskurv"> 
+            <img id="indkøbskurv" src="img/indkøbskurv.png" alt="Indkøbskurv">
 
             <section id="fragt">
                 <p>Gratis fragt ved køb over 200kr.</p>
@@ -62,55 +63,80 @@
     <main>
         <img id="overgang_grøn" src="img/overgang_grøn.png" alt="overgang">
 
-        <section id="treVine">
-        <img src="img/Belmesseri.png" alt="Belmesseri">
-        <img src="img/Tafuri.png" alt="Tafuri">
-        <img src="img/Lagra'.png" alt="Lagra'">
-        </section>
+        <article id="treVine">
+            <section id="belmesseri">
+                <img id="vin_et" src="img/Belmesseri.png" alt="Belmesseri">
+                <img class="kort_streg" src="img/kort_streg.png" alt="kort streg">
+                <h3 class="vinnavn">Belmesseri</h3>
+                <p>Lorem ipsum</p>
+            </section>
+            <section id="tafuri">
+                <img id="vin_to" src="img/Tafuri.png" alt="Tafuri">
+                <img class="kort_streg" src="img/kort_streg.png" alt="kort streg">
+                <h3 class="vinnavn">Tafuri</h3>
+                <p>Lorem ipsum</p>
+            </section>
+            <section id="lagra">
+                <img id="vin_tre" src="img/Lagra'.png" alt="Lagra'">
+                <img class="kort_streg" src="img/kort_streg.png" alt="kort streg">
+                <h3 class="vinnavn">Lagra'</h3>
+                <p>Lorem ipsum</p>
+            </section>
+        </article>
 
-        <h3>Belmesseri</h3>
-        <p>Lorem ipsum</p>
-
-        <h3>Tafuri</h3>
-        <p>Lorem ipsum</p>
-
-        <h3>Lagra'</h3>
-        <p>Lorem ipsum</p>
-
-        <button>
-            <p>Se vores vine</p>
+        <button id="voresvine_knap">
+            <a href="voresvine.html">
+                <p>Se vores vine</p>
+            </a>
         </button>
+
 
         <!--Collage af billeder og tekst midt på siden-->
-        <img src="img/vinglas.png" alt="vinglas">
-        <h2>VinOriginalen</h2>
-        <img src="img/overgang_hvid.png" alt="overgang hvid">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <button>
-            <p>Læs mere</p>
-        </button>
+        <article id="overdel">
 
-        <img src="img/tønder.png" alt="tønder">
+            <img id="vinglas" src="img/vinglas.png" alt="vinglas">
 
-        <img src="img/vinmark.png" alt="vinmark">
-        <h2>Book vinsmagning</h2>
-        <img src="img/overgang_hvid.png" alt="overgang hvid">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        <button>
-            <p>Læs mere</p>
-        </button>
+            <section id="overdel_tekst">
+                <h2 class="hvidtekst">VinOriginalen</h2>
+                <img class="overgang_hvid" src="img/overgang_hvid.png" alt="overgang hvid">
+                <p class="hvidtekst">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button>
+                    <p class="hvidtekst">Læs mere</p>
+                </button>
+            </section>
+            <section>
+                <img id="tønder" src="img/tønder.png" alt="tønder">
+            </section>
+        </article>
+        <article id="underdel">
+            <section>
+                <img id="vinmark" src="img/vinmark.png" alt="vinmark">
+            </section>
+            <section id="underdel_tekst">
+                <h2 class="hvidtekst">Book vinsmagning</h2>
+                <img class="overgang_hvid" src="img/overgang_hvid.png" alt="overgang hvid">
+                <p class="hvidtekst">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button>
+                    <p class="hvidtekst">Læs mere</p>
+                </button>
+            </section>
 
-        <img src="img/Guieseppes1.png" alt="Guieseppes dufter til vin">
+            <img id="guieseppes1" src="img/Guieseppes1.png" alt="Guieseppes dufter til vin">
+
+        </article>
         <!--Collage af billeder og tekst midt på siden slutter-->
 
-        <img src="img/lang_streg.png" alt="lang streg">
-        <h2>Om Vingården</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus esse quia iure quisquam
-            eius at minus error voluptatem, a sunt aut inventore perferendis eaque, expedita ipsum beatae nisi maiores?
-        </p>
-        <img src="img/pynt.png" alt="pynt">
+        <article id="lidtomvingaarden">
+            <img id="lang_streg" src="img/lang_streg.png" alt="lang streg">
+            <h2>Om Vingården</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus esse quia iure quisquam
+                eius at minus error voluptatem, a sunt aut inventore perferendis eaque, expedita ipsum beatae nisi
+                maiores?
+            </p>
+            <img id="pynt" src="img/pynt.png" alt="pynt">
 
-        <img src="img/Guieseppes2.png" alt="Guiseppes holder vinglas">
+            <img id="guieseppes2" src="img/Guieseppes2.png" alt="Guiseppes holder vinglas">
+        </article>
     </main>
 
     <footer> 
