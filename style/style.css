@@ -6,6 +6,9 @@ footer, footer h4 {
     background-color:#90943a; 
     height: 20%; color: #ddd}
 
+h2 {
+        text-transform: uppercase;
+    }
    
 /*Burgermenu!*/
 
@@ -279,7 +282,7 @@ p {
 
 
 #footer{
-    background-color: #90943a;
+    background-color: #90943a; padding: 3%;
 }
 
 h5{
@@ -298,7 +301,7 @@ h5{
 
 #footer_midt{ 
     width: 100%;
-    margin-top; 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -309,17 +312,20 @@ h5{
 
 #adresse{
     display: flex;
+    align-items: center;
   
 }
 
 #telefon {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #mail {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #punkt_1 {
@@ -342,6 +348,18 @@ h5{
     flex-wrap: wrap;
 }
 
+.img_footer {padding: 2%;}
+
+#footer_sociale_medier
+{
+    text-align: right; padding: 2%;
+}
+
+#footer_sociale_medier img
+{
+    width: 7%;
+}
+
 
 
 /* UNDERSIDE: Book vinsmagning --------------------------------------- */
@@ -352,8 +370,9 @@ h5{
 }
 
 
-#h2_book { 
+.h2_book { 
     text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -361,6 +380,7 @@ h5{
     text-align: center;
     margin-top: 8%;
     color: black;
+    
 }
 
 #p_book{ 
@@ -385,7 +405,21 @@ h5{
     width: 100%;
 }
 
-
+.button {
+    background-color: #90943a;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+  }
 
 /* breakpoint Tablet
 -----------------------------------------------------------------------------*/
@@ -431,8 +465,6 @@ h5{
         padding-left: 3%;
     }
 
-    li {}
-
 
 
 
@@ -446,8 +478,17 @@ h5{
 
 /* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
 
+#book_første_del {
+    padding: 0% 7% 0 7%;
+}
+
+#overgang_grøn {
+    width: 60%;
+}
+
 #vinsmagning_2{
     width: 33%; 
+    margin-top: 0%;
 
 }
 
@@ -466,36 +507,73 @@ h5{
     margin-bottom: 5%;
 }
 
+.button {
+    padding: 2% 8%;
+    font-size: 1em;
+
 }
 
+#h3_book {
+    margin-top: 4%;
+}
 
+/* footer 700px--------------------------------------- */
 
 /* breakpoint PC
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px){
+#footer_foerst{
+    width: 30%; padding-right: 5%; margin-bottom: 0%;
+}
 
+#footer_foerst h5{
+    margin: 1% 0% 4% 0%;
+}
+#footer_midt
+{
+    width: 30%; padding: 0% 5% 0% 5%; margin: 0%;
+}
+#footer_slut
+{
+    width: 20%; padding-left: 3%;
+}
+
+#footer_sociale_medier
+{
+    padding: 0%;
+}
+
+#footer_sociale_medier img
+{
+    width: 5%;
+}
+
+#footer_wrap
+{display: flex; flex-wrap: wrap;
+    align-items: center;}
+
+}
+
+/* breakpoint Tablet
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width:1000px){
+
+
+#p_book p {
+    font-size: 1.2em;
+}
+
+    .button {
+        padding: 19.5px 78.7px;
+        font-size: 1em;
+    
+    }
 
   /* footer 1000px*/
 
-  #footer{
-    background-color: #90943a;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#footer_foerst{
-    color: whitesmoke;
-    width: 30%;
-}
-
-#footer_midt{ 
-    width: 30%;
-}
-
-#footer_slut{ 
-    width: 30%;
-}
-
-
+  #footer_sociale_medier img
+  {
+      width: 3%;
+  }
 
 }
