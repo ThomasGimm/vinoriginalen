@@ -151,10 +151,13 @@ p {
 
 #vin_et {
     width: 60%;
+
+    
 }
 
 #belmesseri {
     text-align: center;
+    width: 100%;
 
 }
 
@@ -194,7 +197,8 @@ p {
 }
 
 .kort_streg {
-    margin-top: -20%;
+    margin: 0%;
+    width: 45%;
 }
 
 
@@ -488,6 +492,7 @@ h5 {
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:700px) {
 
+    /*Forsiden*/
     #tafuri {
         display: block;
         text-align: center;
@@ -508,10 +513,15 @@ h5 {
         width: 50%;
     }
 
+    .kort_streg {
+        width: 51%;
+    }
+
     #lidtomvingaarden {
         padding-left: 5%;
         padding-right: 5%;
     }
+    /**/
 
     #flexcontainer1 {
         display: none;
@@ -650,6 +660,41 @@ h5 {
     
 
  /* UNDERSIDE: FORSIDE.....1000px*/
+    /*Forsiden*/
+    #tafuri {
+        display: block;
+        text-align: center;
+        width: 33%;
+
+    }
+
+    #lagra {
+        display: block;
+        text-align: center;
+        width: 33%;
+    }
+
+    #vin_et {
+        width: 60%;
+    }
+
+    #vin_to {
+        width: 60%;
+    }
+
+    #vin_tre {
+        width: 60%;
+    }
+    
+    #belmesseri {
+        text-align: center;
+        width: 33%;
+    }
+
+    .kort_streg {
+        width: 41%;
+    }
+    
     #tønder {
         display: block;
         margin: 0%;
