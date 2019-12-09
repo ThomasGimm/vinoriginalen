@@ -103,34 +103,30 @@ p {
     font-style: normal;
 }
 
+/* Ny menudel */
+#menu {display: flex; flex-wrap: wrap; margin: 0%; align-items: center; justify-content: center; width: 100%;}
+
+#menu_del1 {width: 22%;}
+
+#menu_del2 {width: 22%; text-align: right;}
+
+#menu_del2 p {font-size: 0.4em; color: #90943a;}
+
 #titel {
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 50%;
 }
 
 .streg {
-    width: 26%;
+    width: 100%;
     height: 3px;
     background-color: #90943a;
-    margin: 6px;
-
+    margin: 0 auto;
+    
 }
 
-#indkøbskurv {
-    width: 30px;
-    bottom: 85%;
-    float: right;
-    margin-right: 5%;
-}
-
-#fragt {
-    position: relative;
-    font-size: 7px;
-    bottom: 1px;
-}
+#indkøbskurv {max-width: 20%;}
 
 
 #vingaarden {
@@ -436,7 +432,6 @@ h5 {
 
 #vinsmagning_1 {
     width: 100%;
-    margin-top: 3%;
 }
 
 
@@ -491,6 +486,8 @@ h5 {
     text-transform: uppercase;
 }
 
+
+
 /* breakpoint Tablet
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:700px) {
@@ -532,9 +529,8 @@ h5 {
 
     h1 {
         font-family: olicana-fine, sans-serif;
-        font-size: 80px;
+        font-size: 60px;
         color: #90943a;
-        margin-left: 40%;
     }
 
     h2,
@@ -554,16 +550,21 @@ h5 {
 
     ul {
         list-style-type: none;
-        display: block;
-        margin-left: 20%;
+        display: block; 
+        margin-top: 5%; 
+        text-align: center;
+        padding: 0%;
     }
+
+    li {display: inline-block; 
+        margin: 0% 2% 0% 2%;}
 
     li a {
         text-decoration: none;
         color: #90943a;
         display: block;
         float: left;
-        padding-left: 3%;
+        font-size: 0.8em;
     }
 
     /* UNDERSIDE: Book vinsmagning 700px--------------------------------------- */
@@ -597,7 +598,7 @@ h5 {
         margin-bottom: 5%;
     }
 
-    .button {
+.button {
         padding: 2% 8%;
         font-size: 1em;
 
@@ -610,10 +611,55 @@ h5 {
 
 /* footer 700px--------------------------------------- */
 
+#footer_foerst {
+    width: 30%;
+    padding-right: 5%;
+    margin-bottom: 0%;
+}
+
+#footer_foerst h5 {
+    margin: 1% 0% 4% 0%;
+}
+
+#footer_midt {
+    width: 30%;
+    padding: 0% 5% 0% 5%;
+    margin: 0%;
+}
+
+#footer_slut {
+    width: 20%;
+    padding-left: 3%;
+}
+
+#footer_sociale_medier {
+    padding: 0%;
+}
+
+#footer_sociale_medier img {
+    width: 5%;
+}
+
+#footer_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer_sociale_medier img {
+    width: 3%;
+}
+
 /* breakpoint PC
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px) {
 
+   /* GENERELT .....1000px*/
+  
+    li a { font-size: 1.1em; }
+    
+
+ /* UNDERSIDE: FORSIDE.....1000px*/
     /*Forsiden*/
     #tafuri {
         display: block;
@@ -669,6 +715,13 @@ h5 {
         width: 25%;
     }
 
+#billeder_book{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
     #vinglas {
         width: 25%;
     }
@@ -686,43 +739,8 @@ h5 {
         width: 15%;
     }
 
-    /**/
-    #footer_foerst {
-        width: 30%;
-        padding-right: 5%;
-        margin-bottom: 0%;
-    }
-
-    #footer_foerst h5 {
-        margin: 1% 0% 4% 0%;
-    }
-
-    #footer_midt {
-        width: 30%;
-        padding: 0% 5% 0% 5%;
-        margin: 0%;
-    }
-
-    #footer_slut {
-        width: 20%;
-        padding-left: 3%;
-    }
-
-    #footer_sociale_medier {
-        padding: 0%;
-    }
-
-    #footer_sociale_medier img {
-        width: 5%;
-    }
-
-    #footer_wrap {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-
+    /* UNDERSIDE: Book vinsmagning.....1000px*/
+   
     #p_book p {
         font-size: 1.2em;
     }
@@ -733,9 +751,4 @@ h5 {
 
     }
 
-    /* footer 1000px*/
-
-    #footer_sociale_medier img {
-        width: 3%;
-    }
 }
