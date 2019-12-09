@@ -1,5 +1,6 @@
 body {
     background-image: url("../img/marmor_baggrund.png");
+    margin: 0%;
 }
 footer, footer h4 {
     background-color:#90943a; 
@@ -25,7 +26,7 @@ footer, footer h4 {
 
 #burgerdropdown {
     position: relative;
-    left: 80%;
+    /*left: 85%;*/
 }
 
 #burgercontent {
@@ -142,9 +143,108 @@ p {
     display: flex; flex-wrap: wrap;
 }
 
+#vin_et {
+    width: 60%;
+}
+
+#belmesseri {
+    display: block;
+    text-align: center;
+}
+
+#tafuri {
+    display: none;
+}
+
+#lagra {
+    display: none;
+}
+
+#voresvine_knap {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.vinnavn {
+    margin: 0%;
+}
+
+.kort_streg {
+    margin-top: -20%;
+}
+
+
+/*Collage af billeder og tekst*/
+#tønder {
+    display: none;
+}
+
+#vinmark {
+    display: none;
+}
+
+#overdel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vinglas {
+    width: 50%;
+}
+
+.hvidtekst {
+    color: #e9e2d3;
+}
+
+#overdel_tekst {
+    background-color: #90943a;
+    width: 50%;
+    text-align: center;
+}
+
+.overgang_hvid {
+    width: 80%;
+}
+
+#underdel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#underdel_tekst {
+    width: 50%;
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+#guieseppes1 {
+    width: 50%;
+}
+
+#lang_streg {
+    width: 70%;
+}
+
+#lidtomvingaarden {
+    text-align: center;
+}
+
+#pynt {
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#guieseppes2 {
+    width: 100%;
+}
+
 
 /* footer */
-
+/*underside*/
 #druer {
     width: 100%;   
 }
@@ -152,6 +252,7 @@ p {
     font-size: 18px;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
+    color: black;
 }
 #vinnavn {
     font-size: 20px;
@@ -369,7 +470,7 @@ h5{
 
 
 
-/* breakpoint Tablet
+/* breakpoint PC
 -----------------------------------------------------------------------------*/
 @media only screen and (min-width:1000px){
 
