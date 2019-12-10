@@ -434,6 +434,59 @@ margin-top: 3%;
     width: 7%;
 }
 
+/* UNDERSIDE VORES VINE--------------------------------------------------------*/
+#druer {
+    width: 100%;
+}
+#overgang_hvid{
+    
+}
+
+#voresvineoverskrift {
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    color:#90943a;
+}
+
+#vinnavn {
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif; 
+    color: #1f1f1f;
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+
+#vineflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vv_lagra, #vv_tafuri, #vv_belmesseri {
+    width: 40%;
+    padding-top: 10%;
+    margin: 5%;
+}
+
+#beskrivelse {
+    font-family: 'gill-sans-nova', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+#beskrivelse, li{ 
+    font-size: 15px;
+    font-family: 'gill-sans-nova', sans-serif;
+}
+
+#passertil {
+    font-weight: 900;
+    padding-top: 2em;
+}
+/*VORES VINE SLUT-----------------------------------------------------*/
+
+
 
 
 /* UNDERSIDE: Book vinsmagning --------------------------------------- */
